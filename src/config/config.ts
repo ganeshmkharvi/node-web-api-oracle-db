@@ -8,6 +8,5 @@ export default {
     port: process.env.PORT, 
     password: process.env.PASSWORD,
     connectString: process.env.CONNECT_STRING,
-    tokenKey: process.env.TOKEN_KEY2,
     jwk: JSON.parse(process.env.JWK)
 };
