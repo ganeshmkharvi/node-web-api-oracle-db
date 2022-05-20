@@ -16,7 +16,7 @@
 
 ### Task description
 
-There is only 1 Get api i.e. /api/welcome which returns few records that have been created in oracledb in the nodejs code. You will get all the details in the postman collection inside this repo. To access the api you would require a jwk token which you would get from id_token query string after you login from your coginito hosted url.
+There is only 1 Get api i.e. /api/welcome which returns few records that have been created in oracledb in the nodejs code. You will get all the details in the postman collection inside this repo. To access the api you would require a jwt token which you would get from id_token query string in your call back url that you get after login from your coginito hosted url.
 
 
 ### Built With
