@@ -11,7 +11,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3001/api/welcome",
+					"raw": "http://localhost:3001/api/welcome?token=syz",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -20,6 +20,12 @@
 					"path": [
 						"api",
 						"welcome"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "syz"
+						}
 					]
 				}
 			},
