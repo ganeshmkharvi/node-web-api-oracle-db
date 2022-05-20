@@ -1,5 +1,5 @@
 <p align="center">
-  <h3 align="center">Node.js web api with Oracle DB connectivity and authentication with your AWS cognito hosted UI token</h3>
+  <h3 align="center">Node.js web api with Oracle DB connectivity and authentication with the AWS cognito hosted UI token</h3>
   <p align="center">
     <a href="https://github.com/ganeshmkharvi/node-web-api-oracle-db/issues">Report Bug </a>
     ·
