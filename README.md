@@ -16,7 +16,7 @@
 
 ### Task description
 
-Thre is only 1 Get api i.e. /api/welcome which returns few records that have been created in oracledb in the nodejs code. You will get all the details in the postman collection inside this repo.
+There is only 1 Get api i.e. /api/welcome which returns few records that have been created in oracledb in the nodejs code. You will get all the details in the postman collection inside this repo. To access the api you would require a jwk token which you would get from id_token query string after you login from your coginito hosted url.
 
 
 ### Built With
@@ -58,10 +58,13 @@ To run this project, you'll need to have the following installed:
 
     ```sh
     PORT = <PORT>
-    USER = <USER>
+    USER_ID = <USER_ID>
     PASSWORD = <PASSWORD>
     CONNECT_STRING = <CONNECT_STRING>
+    JWK= <JWK>
     ```
+  You can locate JWK it by constructing the following URL for your environment:
+  https://cognito-idp.{region}.amazonaws.com/{userPoolId}/.well-known/jwks.json
   
 4. Start the server :
 
